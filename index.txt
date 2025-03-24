@@ -1,261 +1,965 @@
-EduWeb - The Best Program to Enroll for Exchange
-This is an education html template made by codewithsadee
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Global Public School Hingoli | Best CBSE School in Hingoli, Maharashtra (2024)</title>
+  <meta name="description" content="Admissions Open 2024-25 at Global Public School Hingoli - Hingoli's premier CBSE affiliated school offering quality education from Play-Group to 10th. Best infrastructure & experienced faculty in Hingoli District.">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="keywords" content="Global Public School Hingoli, Best School in Hingoli, Top CBSE School Hingoli, Schools in Hingoli Maharashtra, Global Public School Admissions 2024, CBSE School Hingoli, Best English Medium School Hingoli">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.globalhingoli.vercel.app/">
+  <meta property="og:title" content="Global Public School Hingoli | Top Ranked CBSE School in Maharashtra">
+  <meta property="og:description" content="Official Website of Global Public School Hingoli - Best CBSE Affiliated School in Hingoli District. 5+ Acres Campus | Smart Classes | STEM Education">
+  <meta property="og:image" content="https://www.globalhingoli.vercel.app/web_assets/new-logo.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.globalhingoli.vercel.app/">
+  <meta property="twitter:title" content="Global Public School Hingoli | Best School in Hingoli District">
+  <meta property="twitter:description" content="Hingoli's No. 1 CBSE School - Global Public School. 15+ Years of Educational Excellence | State-of-the-Art Facilities | 2024 Admissions Open">
+  <meta property="twitter:image" content="https://www.globalhingoli.vercel.app/web_assets/new-logo.png">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.globalhingoli.vercel.app/">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./web_assets/new-logo.png" type="image/png">
+
+  <!-- Preload CSS -->
+  <link rel="preload" href="./assets/css/style.css" as="style">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Preconnect to Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Font Loading -->
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Enhanced Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Global Public School Hingoli",
+    "url": "https://globalpublicschoolhingoli.vercel.app/",
+    "logo": "https://globalhingolischoolhingoli.vercel.app/web_assets/new-logo.png",
+    "foundingDate": "2008",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Sengaon Road",
+      "addressLocality": "Hingoli",
+      "addressRegion": "Maharashtra",
+      "postalCode": "431513",
+      "addressCountry": "India"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Admissions",
+      "email": "
+      globalpublicschool9764@gmail.com",
+      "telephone": "+91-7972348982"
+    },
+    "sameAs": [
+      "https://facebook.com/globalpublichingoli",
+      "https://twitter.com/globalhingoli",
+      "https://instagram.com/globalpublichingoli"
+    ],
+    "description": "CBSE Affiliated English Medium School in Hingoli offering comprehensive education from Play-Group to 10th ",
+    "curriculum": "CBSE",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "325"
+    }
+  }
+  </script>
+
+
+  
+</head>
 
 
 
-#---------- HEADER ----------#
-
-alt = EduWeb logo
-
-aria-label = close menu
-<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-
-Home
-About
-Courses
-Blog
-Contact
-
-aria-label = toggle search
-<ion-icon name="search-outline" aria-hidden="true"></ion-icon>
-
-aria-label = cart
-<ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
-0
-
-Try for free
-<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-
-aria-label = open menu
-<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
 
 
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+<!-------------------------------------------------------------------navbar-------------------------------------------------------------->
+  <header class="header" data-header>
+    <div class="container">
+      <!-- Logo and text container -->
+      <a href="index.html" class="logo">
+        <img src="./web_assets/new-logo.png" width="100" height="50" alt="Global Public School Hingoli">
+        <h1 class="logo-text">Global Public School</h1> <!-- Text added next to the logo -->
+      </a>
+  
+      <!-- Navigation Bar -->
+      <nav class="navbar" data-navbar>
+        <div class="wrapper">
+          <a href="#" class="logo">
+            <img src="./web_assets/new-logo.png" width="100" height="50 " alt="Global Public School Hingoli">
+            <span class="logo-text"></span> <!-- Text added next to the logo -->
+          </a>
+  
+          <!-- Mobile toggle button -->
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+  
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="about.html"  class="navbar-link" data-nav-link>About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="fees.html"  class="navbar-link" data-nav-link>Fees</a>
+          </li>
+          <li class="navbar-item">
+            <a href="gallery.html" class="navbar-link" data-nav-link>Gallery</a>
+          </li>
+         
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Photo & Cert.</a>
+          </li>
+          <li class="navbar-item">
+            <a href="admission.html"  class="navbar-link" data-nav-link>Admission</a>
+          </li>
+          <li class="navbar-item">
+            <a href="complain.html"  class="navbar-link" data-nav-link>Complain</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html"  class="navbar-link" data-nav-link>Contact</a>
+          </li>
+        </ul>
+      </nav>
+  
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+  
+      <!-- Overlay for mobile menu -->
+      
+  
+    </div>
+  </header>
+  
+  <style>
+    /* Ensure the logo and text align well */
+    .header .logo {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+  
+    .logo img {
+      margin-right: 10px; /* Adds space between the logo and text */
+    }
+  
+    .logo-text {
+      font-size: 24px; /* Adjust the size of the text */
+      font-weight: bold;
+      color: #333; /* Adjust color */
+      font-family: 'League Spartan', sans-serif; /* Optional custom font */
+    }
+  
+    /* Navbar Styles */
+    .navbar-list {
+      display: flex;
+      list-style: none;
+      padding: 0;
+    }
+  
+    .navbar-item {
+      margin-right: 20px;
+    }
+  
+    .navbar-link {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  
+    /* Mobile Menu Button */
+    .header-action-btn {
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  
+    /* Overlay for Mobile Menu */
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+    }
+  
+    /* For mobile view */
+    @media (max-width: 768px) {
+      .header .logo {
+        display: block;
+        text-align: center;
+        margin: -20px;
+      }
+  
+      .logo-text {
+        font-size: 16px ; /* Adjust text size for mobile */
+      }
+  
+      .navbar-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+      }
+  
+      .navbar-item {
+        margin: 10px 0;
+      }
+  
+      .header-actions {
+        display: block;
+      }
+  
+      .header-action-btn {
+        font-size: 28px; /* Larger menu button for mobile */
+        position: absolute;
+        right: 20px;
+        top: 20px;
+      }
+  
+      .overlay[data-overlay] {
+        display: block;
+      }
+    }
+  </style>
+  
+  
+  <style>
+    /* Ensure the logo and text align well */
+    .header .logo {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+  
+    .logo img {
+      margin-right: 10px; /* Adds space between the logo and text */
+    }
+  
+    .logo-text {
+      font-size: 24px; /* Adjust the size of the text */
+      font-weight: bold;
+      color: #333; /* Adjust color */
+      font-family: 'League Spartan', sans-serif; /* Optional custom font */
+    }
+  
+    /* Navbar Styles */
+    .navbar-list {
+      display: flex;
+      list-style: none;
+      padding: 0;
+    }
+  
+    .navbar-item {
+      margin-right: 20px;
+    }
+  
+    .navbar-link {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  
+    /* Mobile Menu Button */
+    .header-action-btn {
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  
+    /* Overlay for Mobile Menu */
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+    }
+  </style>
+  
+
+<!-------------------------------------------nabar       --------------------------------------------------------------------------------------------------------------------->
 
 
-#---------- HERO ----------#
 
-The Best Program to 
-Enroll 
-for Exchange
+  <main>
+    <article>
 
-Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.
-
-Find courses 
-<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-
-alt = hero banner
-
-
-
-#---------- CATEGORY ----------#
-
-Categories
-
-Online
-Classes
-For Remote Learning.
-
-Consectetur adipiscing elit sed do eiusmod tempor.
-
-color = 170, 75%, 41%
-alt = Online Degree Programs
-Online Degree Programs
-Lorem ipsum dolor consec tur elit adicing sed umod tempor.
-7 Courses
-
-color = 351, 83%, 61%
-alt = Non-Degree Programs
-Non-Degree Programs
-4 Courses
-
-color = 229, 75%, 58%
-alt = Off-Campus Programs
-Off-Campus Programs
-8 Courses
-
-color = 42, 94%, 55%
-alt = Hybrid Distance Programs
-Hybrid Distance Programs
-
-
-
-#---------- ABOUT ----------#
-
-alt = about banner
-
-About Us
-
-Over 10 Years in
-Distant learning
-for Skill Development
-
-Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore magna aliquaenim ad minim.
-
-<ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-
-Expert Trainers
-Online Remote Learning
-Lifetime Access
-
-
-
-#---------- COURSE ----------#
-
-Popular Courses
-
-Pick A Course To Get Started
-
-alt = Build Responsive Real- World Websites with HTML and CSS
-
-<ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-3 Weeks
-
-Beginner
-Build Responsive Real- World Websites with HTML and CSS
-
-<ion-icon name="star"></ion-icon>
-(5.0/7 Rating)
-$29.00
-
-<ion-icon name="library-outline" aria-hidden="true"></ion-icon>
-8 Lessons
-
-<ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-20 Students
-
-
-alt = Java Programming Masterclass for Software Developers
-
-8 Weeks
-Advanced
-Java Programming Masterclass for Software Developers
     
-(4.5 /9 Rating)
-$49.00
+ <br><br><br><br><br>
 
-15 Lessons
-35 Students
+<section class="section about" id="about" aria-label="about">
+  <div class="container">
 
-
-alt = The Complete Camtasia Course for Content Creators
-
-3 Weeks
-Intermediate
-The Complete Camtasia Course for Content Creators
+    <figure class="about-banner">
+      <div class="img-holder" style="--width: 520; --height: calc(520 / 2.85);">
+        <img src="./web_assets/cropped (1).jpg" width="520" height="calc(520 / 2.85)" loading="lazy" alt="Global Public School Hingoli" class="img-cover">
+      </div>
     
-(4.9 /7 Rating)
-$35.00
+      <img src="./assets/images/about-shape-3.png" width="722" height="528" loading="lazy" alt="Global Public School Hingoli" class="shape about-shape-3">
+    </figure>
+    
+    <style>
+      .img-holder {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: calc(100% / 2.85); /* Adjust height based on the aspect ratio */
+        overflow: hidden;
+      }
+    
+      .img-cover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures the image covers the container */
+      }
+    </style>
+    
+    <div class="about-content">
 
-13 Lessons
-18 Students
+      <p class="section-subtitle">Welcome to </p>
+    
+      <h1 class="h1 section-title">
+        Global Public School Hingoli
+      </h1>
+      
+    
+      <p class="section-text">
+        Global Public School Hingoli is committed to providing the highest quality education with a focus on excellence in academics, creativity, and personal development. Global Public School Hingoli is all about nurturing the potential of each child and how to make them a better version of themselves in and out of the classroom.    
+      <ul class="about-list">
 
+        <li class="about-item">
+          <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+          <span class="span">Comprehensive Curriculum</span>
+        </li>
+    
+        <li class="about-item">
+          <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+          <span class="span">Strong Focus on Moral Values</span>
+        </li>
+    
+        <li class="about-item">
+          <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+          <span class="span">Innovative Learning Tools</span>
+        </li>
+    
+        <li class="about-item">
+          <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+          <span class="span">Personalized Attention</span>
+        </li>
+    
+      </ul>
+      
+    </div>
+    
 
-Browse more courses
-<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+      <img src="./assets/images/about-shape-4.svg" width="100" height="100" loading="lazy" alt="Global Public School Hingoli"
+        class="shape about-shape-4">
 
+    </div>
 
+  </div>
+</section>
 
-#---------- VIDEO ----------#
+      <section class="section stats" aria-label="stats">
+        <div class="container">
+      
+          <ul class="grid-list">
+      
+            <li>
+              <div class="stats-card" style="--color: 170, 75%, 41%">
+                <h3 class="card-title">400+</h3>
+                <p class="card-text">Students Enrolled</p>
+              </div>
+            </li>
+      
+            <li>
+              <div class="stats-card" style="--color: 351, 83%, 61%">
+                <h3 class="card-title">20+</h3>
+                <p class="card-text">Classes</p>
+              </div>
+            </li>
 
-alt = video banner
-
-aria-label = play video
-<ion-icon name="play" aria-hidden="true"></ion-icon>
-
-
-
-#---------- STATS ----------#
-
-color = 170, 75%, 41%
-29.3k
-Student Enrolled
-
-color: = 351, 83%, 61%
-32.4K
-Class Completed
-
-color = 260, 100%, 67%
-100%
-Satisfaction Rate
-
-color = 42, 94%, 55%
-354+
-Top Instructors
-
-
-
-#---------- BLOG ----------#
-
-Latest Articles
-Get News With Eduweb
-
-alt = Become A Better Blogger: Content Planning
-
-aria-label = read more
-<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-
-Online
-
-Become A Better Blogger: Content Planning
-
-<ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-Oct 10, 2021
-
-<ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
-Com 09
-
-Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.
-
-
-
-#---------- FOOTER ----------#
-
-alt = EduWeb logo
-
-Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.
-
-Add:
-70-80 Upper St Norwich NR2
-Call:
-+01 123 4567 890
-Email:
-info@eduweb.com
-
-Online Platform
-About
-Courses
-Instructor
-Events
-Instructor Profile
-Purchase Guide
-
-Links
-Contact Us
-Gallery
-News & Articles
-FAQ's
-Sign In/Registration
-Coming Soon
-
-Contacts
-Enter your email address to register to our newsletter subscription
-
-placeholder = Your email
-Subscribe 
-<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-linkedin"></ion-icon>
-<ion-icon name="logo-instagram"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-youtube"></ion-icon>
-
-
-Copyright 2022 All Rights Reserved by codewithsadee
-
+            <li>
+              <div class="stats-card" style="--color: 42, 94%, 55%">
+                <h3 class="card-title">20+</h3>
+                <p class="card-text">Certified Teachers</p>
+              </div>
+            </li>
+      
+            <li>
+              <div class="stats-card" style="--color: 260, 100%, 67%">
+                <h3 class="card-title">100%</h3>
+                <p class="card-text">Satisfaction Rate</p>
+              </div>
+            </li>
+      
+            
+      
+          </ul>
+      
+        </div>
+      </section>
+      
 
 
-#---------- BACK TO TOP ----------#
+      <!-- about section -->
+      
+  <section class="section about" id="about" aria-label="about">
+    <div class="container">
+      
+  
+      <div class="about-content">
+        <p class="section-subtitle">About Us</p>
+  
+        <h2 class="h2 section-title">
+          Empowering Students with <span class="span">Accessible Learning</span> Solutions
+        </h2>
+  
+        <p class="section-text">
+          You are empowered to education everywhere for everyone. About the Founder: Global Public School Hingoli aims to bring the real world in the classroom with its innovative techniques; expert guidance and a quest for excellence which is led dedication.        </p>
+  
+        <ul class="about-list">
+          <li class="about-item">
+            <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+            <span class="span">Dedicated and Certified Trainers</span>
+          </li>
+  
+          <li class="about-item">
+            <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+            <span class="span">Flexible Online Programs</span>
+          </li>
+  
+          <li class="about-item">
+            <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+            <span class="span">Community-Driven Approach</span>
+          </li>
+  
+          <li class="about-item">
+            <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+            <span class="span">Lifetime Access to Learning Materials</span>
+          </li>
+        </ul>
+  
+        <p class="section-text">
+          Our platform offers a wide range of courses designed to help learners achieve their personal and professional goals.
+          Join our growing community and take the first step toward a brighter future.
+        </p>
+  
+      </div>
+    </div>
+  </section>
 
-aria-label = back top top
-<ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+
+
+
+
+  
+  
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category" aria-label="category">
+        <div class="container">
+
+          <p class="section-subtitle">Features</p>
+
+          <h2 class="h2 section-title">
+            World-Class <span class="span">Education</span> For Every Student.
+          </h2>
+
+          <p class="section-text">
+            We provide a range of high-quality educational features to support the learning journey.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="category-card" style="--color: 170, 75%, 41%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-1.svg" width="40" height="40" loading="lazy"
+                    alt="Global Public School Hingoli" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Expert Teachers</a>
+                </h3>
+
+                <p class="card-text">
+                  We ensure that our students receive quality education by engaging highly skilled and experienced teachers.
+
+                </p>
+
+                <span class="card-badge">6+ Years Experience</span>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card" style="--color: 351, 83%, 61%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-2.svg" width="40" height="40" loading="lazy"
+                    alt="Global Public School Hingoli" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Sports & Extracurriculars</a>
+                </h3>
+
+                <p class="card-text">
+                  We provide a range of sports and other activities for the purpose of holistic development.
+
+                </p>
+
+                <span class="card-badge">Multiple Activities</span>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card" style="--color: 229, 75%, 58%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-3.svg" width="40" height="40" loading="lazy"
+                    alt="Global Public School Hingoli" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Modern Classrooms</a>
+                </h3>
+
+                <p class="card-text">
+                  To enhance the learning experience, our classrooms are outfitted with the most advanced technology available.
+
+                  </p>
+
+                <span class="card-badge">State-of-the-art Facilities</span>
+
+              </div>
+            </li>
+
+           
+
+          </ul>
+
+        </div>
+      </section>
+    
+
+
+
+      <!--
+      contact us -->
+
+
+
+      <section class="section blog has-bg-image" id="blog" aria-label="blog"
+      style="background-image: url('./assets/images/blog-bg.svg')">
+      <div class="container">
+  
+  
+        <h2 class="h2 section-title">Contact</h2>
+  
+        <ul class="grid-list">
+  
+        
+          <div class="form-container">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <!-- Web3Forms Hidden Fields -->
+                <input type="hidden" name="access_key" value="2ce97425-6523-4445-9be6-1b61ed029be8">
+                <input type="hidden" name="subject" value="New Contact Form Submission">
+        
+                <h1 class="form-title">Contact Us</h1>
+        
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="phone">Your Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                </div>
+        
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                </div>
+        
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
+        
+          
+          <style>
+              /* General Styles */
+              body {
+                  font-family: 'Poppins', sans-serif;
+                  margin: 0;
+                  padding: 0;
+                  background-color: #f8f9fa;
+              }
+          
+              .form-container {
+                  max-width: 600px;
+                  margin: 50px auto;
+                  background: linear-gradient(135deg, #ffffff, #f3f6fa);
+                  padding: 30px;
+                  border-radius: 15px;
+                  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+                  transition: transform 0.3s;
+              }
+          
+              .form-container:hover {
+                  transform: translateY(-5px);
+              }
+          
+              .form-title {
+                  font-family: 'League Spartan', sans-serif;
+                  font-size: 24px;
+                  font-weight: 700;
+                  color: #333;
+                  text-align: center;
+                  margin-bottom: 20px;
+              }
+          
+              .form-group {
+                  margin-bottom: 15px;
+              }
+          
+              .form-group label {
+                  font-weight: 600;
+                  color: #555;
+                  margin-bottom: 8px;
+                  display: block;
+              }
+          
+              .form-group input,
+              .form-group textarea {
+                  width: 100%;
+                  padding: 12px 15px;
+                  font-size: 16px;
+                  border: 1px solid #ddd;
+                  border-radius: 8px;
+                  background: #f9f9f9;
+                  color: #333;
+                  box-sizing: border-box;
+                  transition: border-color 0.3s;
+              }
+          
+              .form-group input:focus,
+              .form-group textarea:focus {
+                  border-color: #007bff;
+                  outline: none;
+              }
+          
+              .form-group textarea {
+                  resize: none;
+                  height: 100px;
+              }
+          
+              .btn-submit {
+                  display: inline-block;
+                  width: 100%;
+                  padding: 12px 20px;
+                  background-color: #007bff;
+                  color: #fff;
+                  font-size: 18px;
+                  font-weight: 700;
+                  border: none;
+                  border-radius: 8px;
+                  cursor: pointer;
+                  text-transform: uppercase;
+                  transition: background-color 0.3s ease;
+              }
+          
+              .btn-submit:hover {
+                  background-color: #0056b3;
+              }
+          
+              /* Responsive Styles */
+              @media (max-width: 768px) {
+                  .form-container {
+                      padding: 20px;
+                  }
+          
+                  .form-title {
+                      font-size: 20px;
+                  }
+          
+                  .btn-submit {
+                      font-size: 16px;
+                  }
+              }
+          
+              @media (max-width: 480px) {
+                  .form-container {
+                      padding: 15px;
+                  }
+          
+                  .form-title {
+                      font-size: 18px;
+                  }
+          
+                  .btn-submit {
+                      font-size: 14px;
+                  }
+              }
+          </style>
+          
+        
+  
+        <img src="./assets/images/blog-shape.png" width="186" height="186" loading="lazy" alt=""
+          class="shape blog-shape">
+  
+      </div>
+  
+  
+  
+      
+    </section>
+  
+  
+  
+  <!-- CSS for Responsive iframe -->
+  <style>
+    .map-container {
+        margin-top: 30px;
+        text-align: center;
+    }
+  
+    .map-container iframe {
+        width: 100%;
+        max-width: 100%;
+        height: 400px;
+        border: 0;
+        border-radius: 8px;
+    }
+  
+    /* Adjust iframe size on smaller screens */
+    @media (max-width: 768px) {
+        .map-container iframe {
+            height: 300px;
+        }
+    }
+  
+    @media (max-width: 480px) {
+        .map-container iframe {
+            height: 250px;
+        }
+    }
+  </style>
+  
+  <!-- Google Map iframe -->
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3795.2852008131426!2d77.15885047526614!3d19.705872881632693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd053f9763e85fd%3A0xd5cd7b11281e1964!2sGlobal%20Public%20School%20Hingoli!5e1!3m2!1sen!2sin!4v1735914032721!5m2!1sen!2sin" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+<!---------------------------------------footer --------------------------------------------------------------------------------------------------->
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./web_assets/new-logo.png" width="120" height="50" alt="Global Public School Hingoli">
+          </a>
+
+          <p class="footer-brand-text">
+          </p>
+
+         
+
+          <div class="wrapper">
+            <span class="span">Call:</span>
+
+            <a href="tel:7972348982" class="footer-link">7972348982</a>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Email:</span>
+
+            <a href="mailto:globalpublicschool9764@gmail.com" class="footer-link">globalpublicschool9764@gmail.com</a>
+          </div>
+
+        </div>
+
+       
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Links </p>
+          </li>
+
+          <li>
+            <a href="about.html" class="footer-link">About</a>
+          </li>
+          <li>
+            <a href="fees.html" class="footer-link">Fees</a>
+          </li>
+          <li>
+          
+
+          <li>
+            <a href="gallery.html" class="footer-link">Gallery</a>
+          </li>
+
+          
+          <li>
+            <a href="#" class="footer-link">Photo & Certificates</a>
+          </li>
+
+          <li>
+            <a href="admission.html" class="footer-link">Admission</a>
+          </li>
+
+          <li>
+            <a href="complain.html" class="footer-link">Complain</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="footer-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Socail Media </p>
+
+         
+
+         
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100023329478281&mibextid=JRoKGi" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            
+
+            <li>
+              <a href="https://www.instagram.com/globalpublicschoolhingoli?igsh=MXNtdTJuZzh6NHp4bg==" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+           
+
+            <li>
+              <a href="https://youtube.com/@globalpublicschoolhingoli3092?si=jpvySdWqY0aamxcD" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright 2024 All Rights Reserved by <a href="https://blueberginfotech.vercel.app/" target="_blank" class="copyright-link">Blue Berg Infotech</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+<!---------------------------------------footer --------------------------------------------------------------------------------------------------->
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
